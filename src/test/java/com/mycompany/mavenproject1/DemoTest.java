@@ -73,7 +73,7 @@ public class DemoTest {
         int a = 5;
         int b = 2;
         Demo instance = new Demo();
-        int expResult = -3;
+        int expResult = 3;
         int result = instance.minus(a, b);
         assertEquals(expResult, result);
        
