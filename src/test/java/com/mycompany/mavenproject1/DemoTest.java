@@ -79,4 +79,16 @@ public class DemoTest {
        
     }
     
+     @Test
+    public void testMinus3() {
+        System.out.println("minus");
+        int a = 10;
+        int b = 2;
+        Demo instance = new Demo();
+        int expResult = 8;
+        int result = instance.minus(a, b);
+        assertEquals(expResult, result);
+       
+    }
+    
 }
